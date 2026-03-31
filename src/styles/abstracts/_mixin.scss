@@ -1,0 +1,69 @@
+@use 'sass:map';
+@use '@/styles/abstracts/variable' as font-styles;
+
+$breakpoints: (
+  xs: 360,
+  sm: 568,
+  md: 768,
+  lg: 992,
+  xl: 1024,
+  xxl: 1920,
+);
+
+@mixin flex($x: center, $y: center) {
+  display: flex;
+  justify-content: $x;
+  align-items: $y;
+}
+
+@mixin gap-vertical($size) {
+  display: flex;
+  flex-direction: column;
+  gap: $size;
+}
+
+@mixin media($size, $type: max) {
+  $value: map.get($breakpoints, $size);
+
+  @if $value {
+    @if $type == max {
+      @media (max-width: #{$value}px) {
+        @content;
+      }
+    } @else if $type == min {
+      @media (min-width: #{$value}px) {
+        @content;
+      }
+    } @else {
+      @warn "Loại media `#{$type}` không hợp lệ. Dùng `min` hoặc `max`.";
+    }
+  } @else {
+    @warn "Breakpoint `#{$size}` không tồn tại trong $breakpoints map!";
+  }
+}
+
+@mixin font-style($case, $device: 'mobile') {
+  // Chọn map styles phù hợp với thiết bị
+  $font-map: null;
+  @if $device == 'pc' {
+    $font-map: font-styles.$font-styles-pc; // Accessing the variable with the namespace
+  } @else if $device == 'mobile' {
+    $font-map: font-styles.$font-styles-mobile; // Accessing the variable with the namespace
+  } @else {
+    @error "Thiết bị không hợp lệ: '#{$device}'. Vui lòng sử dụng 'pc' hoặc 'mobile'.";
+  }
+
+  // Nếu map tồn tại và case có trong map
+  @if map.has-key($font-map, $case) {
+    $style: map.get($font-map, $case);
+    font-size: #{map.get($style, 'size')}px;
+    line-height: map.get($style, 'line-height');
+    font-weight: map.get($style, 'font-weight');
+
+    @if map.has-key($style, font-family) {
+      font-family: map.get($style, font-family);
+    }
+  } @else {
+    @warn "Không tìm thấy case '#{$case}' trong map của thiết bị '#{$device}'.";
+  }
+}

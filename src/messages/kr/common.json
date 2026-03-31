@@ -1,0 +1,197 @@
+{
+  "validate": {
+    "required": "{field} 를 입력해 주세요",
+    "all_space": "공백만 입력할 수 없습니다.",
+    "email": "이메일 형식이 올바르지 않습니다.",
+    "password": "영문과 숫자 조합으로 8자리 이상 입력해주세요",
+    "min_max_length": "최소 {min}자 ~ 최대 {max}자 범위로 입력해주세요.",
+    "max_length": "자세한 내용을 입력해주세요. ({max}자)",
+    "name": "2~20자, 한글 또는 영문만 입력 가능합니다.",
+    "korea_phone": "전화번호가 올바르지 않습니다.",
+    "notMatch": "비밀번호가 일치하지 않습니다",
+    "date": "유효하지 않은 날짜입니다.",
+    "invalid_number": "유효한 사업자 등록 번호를 입력해 주세요",
+    "car_number": "한글과 숫자를 조합하여 7자에서 8자까지 입력해 주세요",
+    "no_account_name_bank": "계정 이름을 찾을 수 없습니다",
+    "only_number": "숫자만 입력할 수 있습니다.",
+    "invalid_format_file": "(PDF 파일과 이미지 파일(jpeg, jpg, png)만 첨부할 수 있습니다)",
+    "invalid_website": "올바른 웹사이트 주소를 입력해 주세요."
+  },
+
+  "app": {
+    "system_admin": "시스템 관리자",
+    "all": "전체",
+    "address_search": "주소 검색",
+    "insert_file": "파일 삽입"
+  },
+
+  "user": {
+    "menus": {
+      "home": "홈",
+      "reservation": "예약내역",
+      "profile": "마이페이지"
+    }
+  },
+
+  "header": {
+    "user": {
+      "my_info": "내 정보",
+      "welcome_name": "{name} 환영합니다",
+      "edit_info": "내 정보 편집",
+      "logout": "로그아웃"
+    },
+
+    "profile": {
+      "list": "내 정보 편집"
+    },
+
+    "notification": {
+      "title": "알림",
+      "no_data": "알림이 없습니다."
+    }
+  },
+
+  "menus": {
+    "inspection": {
+      "dashboard": "홈 (대시보드)",
+      "reservation_task": {
+        "title": "예약/작업 관리",
+        "reservation": "예약 관리",
+        "agency": "검사 대행 관리"
+      },
+      "my_business": {
+        "title": "내 업체 관리",
+        "info": "업체 정보 관리",
+        "service": "서비스 관리",
+        "agency": "대행 커버리지"
+      },
+      "settlement": {
+        "title": "정산 관리",
+        "detail": "정산 내역"
+      }
+    },
+    "admin": {
+      "heading": "사용자 관리",
+      "user_management": "사용자 관리",
+      "inspection_approval": "파트너 가입 승인",
+      "inspection_management": "파트너 관리"
+    }
+  },
+
+  "button": {
+    "search": "검색",
+    "confirm": "확인",
+    "register": "등록",
+    "edit": "수정",
+    "save": "저장",
+    "send": "발송",
+    "deactive": "비활성화",
+    "delete": "삭제",
+    "see_more": "더 보기",
+    "request": "점검 요청하기",
+    "complete": "완료 처리",
+    "deactive_member": "회원 비활성화",
+    "degree": "동의하지 않습니다",
+    "agree": "동의합니다",
+    "signature": "서명 완료",
+    "retry": "다시하기",
+    "completed": "완료하기",
+    "rewrite": "다시 쓰기",
+    "detail": "상세",
+    "check": "조회",
+    "car_registration": "자동차 등록",
+    "sign_up": "가입하기",
+    "reset": "초기화",
+    "registration_complete": "등록 완료",
+    "view": "보기",
+    "cancel": "취소",
+    "signUp": "가입하기",
+    "verify": "인증하기",
+    "login": "확인",
+    "verify2": "인증",
+    "resend": "재전송",
+    "approval": "저장",
+    "approval_confirm": "승인",
+    "add_vehicle": "차량 추가 등록",
+    "register_car": "내 차 정보 등록",
+    "make_a_reservation": "예약하기"
+  },
+
+  "confirm": {
+    "register": "등록하시겠습니까?",
+    "update": "변경 사항을 저장하시겠습니까?",
+    "deactivate": "비활성화 하시겠습니까?",
+    "deactivate_description": "비활성화 하면 복구할 수 없습니다. 그래도 진행하시겠습니까?",
+    "deactivate_user_description": "시설 관리자를 변경해야 합니다. 그렇지 않으면 시스템 관리자가 자동으로 지정됩니다.",
+    "deactive_facility": "이 시설을 삭제하면 위치 및 디바이스도 함께 삭제됩니다. 삭제하시겠습니까?",
+    "restore_email": "이 이메일 계정은 이미 비활성 상태입니다. 계정을 다시 활성화하시겠습니까?",
+    "delete_email": "삭제 하시겠습니까?",
+    "delete_email_description": "계속 진행할 경우 시스템 관리자가 자동으로 해당 시설의 설치 관리자로 지정됩니다.",
+    "delete_location": "삭제하시겠습니까?",
+    "delete_news_board": "삭제하시겠습니까?"
+  },
+
+  "toast": {
+    "completed": "완료",
+    "warning": "경고",
+    "information": "정보",
+    "error": "실패",
+    "register_success": "등록이 완료되었습니다.",
+    "update_success": "변경 사항이 저장되었습니다.",
+    "delete_success": "삭제가 완료되었습니다.",
+    "deactive_success": "삭제가 완료되었습니다.",
+    "send_success": "성공적으로 전송되었습니다.",
+    "invalid_number": "Please enter a valid business registration number",
+    "invalid_business_registration": "The business registration number is incorrect",
+    "registration_success": "등록 완료되었습니다",
+    "reset_success": "비밀번호가 성공적으로 변경되었습니다.",
+    "sign_up_success": "등록 완료되었습니다",
+    "resent_success": "OTP가 전송되었습니다"
+  },
+
+  "filter": {
+    "all": "전체",
+    "search": "검색어를 입력하세요",
+    "registration_date": "등록일시 :",
+    "registration_date_request": "요청일시 :",
+    "gender_all": "전체 성별",
+    "male": "남성",
+    "female": "여성",
+    "birth_years_all": "전체 출생연도",
+    "status_all": "전체 상태",
+    "active": "활성",
+    "inactive": "비활성",
+    "age_all": "전체 연령대"
+  },
+
+  "placeholder": {
+    "postal_code": "업체 주소",
+    "editor": "내용을 입력하세요",
+    "phone_number": "전화번호를 입력하세요"
+  },
+
+  "no_data": "데이터를 찾을 수 없습니다",
+
+  "uploads": {
+    "title": "등록 파일 결과",
+    "placeholder": "파일 업로드",
+    "max": "클릭 또는 파일드래그. 최대 5mb 이하 PDF 또는 이미지파일"
+  },
+
+  "options": {
+    "all": "전체",
+    "partner_type": {
+      "inspection": "검사소",
+      "car_center": "Car Center",
+      "all": "형식 "
+    },
+    "partner_status": {
+      "pending": "승인대기",
+      "rejected": "반려",
+      "active": "활성",
+      "suspended": "정지",
+      "all": "처리상태 ",
+      "withdrawn": "탈퇴"
+    }
+  }
+}

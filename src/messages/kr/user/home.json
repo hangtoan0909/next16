@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "usage_badge": "지금까지 <important>500,640,000</important> 명이 이용했어요!",
+    "title": "아직도 검사소에서 <br /> 검사 받으세요?",
+    "description": "이제 가까운 카센터에서 하세요!"
+  },
+
+  "near_by_inspection": {
+    "title": "바로가기",
+    "inspection": {
+      "desc_1": "근처 카센터에서",
+      "desc_2": "자동차 검사하기"
+    },
+    "find": {
+      "center": {
+        "line_1": "내 주변",
+        "line_2": "카센터 찾기"
+      },
+      "station": {
+        "line_1": "내 주변",
+        "line_2": "검사소 찾기"
+      }
+    }
+  },
+
+  "recommend_service": {
+    "title": "차바 추천 서비스",
+    "detail": "자세히 보기"
+  },
+
+  "vehicle_owner": {
+    "desc": "정비소 사장님이세요?",
+    "login": "로그인ㅣ회원가입으로 이동하기"
+  },
+
+  "footer": {
+    "search": {
+      "title": "전국 검사소 찾기",
+      "findInspectionCenter": "전국 검사소 찾기",
+      "findCarCenter": "전국 카센터 찾기"
+    },
+    "support": {
+      "title": "고객지원",
+      "blog": "공식 블로그",
+      "faq": "자주 묻는 질문 (FAQ)"
+    },
+    "company": {
+      "title": "회사정보",
+      "name": "차바(주)",
+      "ceo": "대표: 최동남",
+      "bizNumber": {
+        "label": "사업자등록번호:",
+        "value": "550-81-03457"
+      },
+      "call": {
+        "label": "고객센터:",
+        "value": "070-7714-7733"
+      },
+      "email": {
+        "label": "이메일:",
+        "value": "info@chaba.co.kr"
+      },
+      "address": {
+        "label": "주소:",
+        "value": "충청남도 천안시 서북구 백석4길 12, 1001동 10층"
+      }
+    },
+    "copyright": "ⓒ Chaba All rights reserved"
+  }
+}

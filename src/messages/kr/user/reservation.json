@@ -1,0 +1,14 @@
+{
+  "title": "예약하기",
+  "select_product": "선택 상품",
+  "select_product_placeholder": "검사/정비 항목 선택",
+  "select_date": "날짜 선택",
+  "select_time": "시간 검색",
+  "time_note": "(검사 대행 포함 시 15:00 마감)",
+  "car_info": "차량 정보",
+  "car_name": "현대 소나타",
+  "car_type": "중형차",
+  "request_optional": "요청사항 (선택)",
+  "request_placeholder": "추가 요청사항을 입력해주세요.",
+  "confirm": "예약 확정하기"
+}

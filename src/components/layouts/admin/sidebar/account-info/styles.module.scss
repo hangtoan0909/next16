@@ -1,0 +1,54 @@
+@use '@/styles/abstracts/mixin';
+
+.account {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--gray-300-border);
+
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+
+    img {
+      flex-shrink: 0;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .detail {
+      display: flex;
+      flex-direction: column;
+
+      .name {
+        @include mixin.font-style('body4-bold');
+      }
+
+      .address {
+        margin: 4px 0;
+      }
+
+      .address,
+      .phone {
+        color: var(--gray-600);
+        @include mixin.font-style('label-mid');
+      }
+    }
+  }
+
+  .specialization {
+    @include mixin.font-style('label-mid');
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 8px 0;
+
+    span {
+      @include mixin.flex;
+      border-radius: 4px;
+      height: 24px;
+      padding: 0 8px;
+      background-color: var(--gray-200-bg);
+    }
+  }
+}

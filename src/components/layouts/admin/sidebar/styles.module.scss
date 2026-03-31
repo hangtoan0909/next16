@@ -1,0 +1,113 @@
+@use '@/styles/abstracts/mixin';
+
+.menus {
+  height: calc(100vh - 60px);
+  transition: 0.6s;
+  margin-top: 56px;
+  overflow: auto;
+  background-color: var(--white);
+  border-right: 1px solid var(--gray-200);
+
+  :global(.ant-menu-root) {
+    margin-top: 24px;
+  }
+
+  :global(.ant-menu) {
+    border: none !important;
+    padding: 0 16px;
+  }
+
+  :global(.ant-menu-root) {
+    > :global(.ant-menu-item) {
+      span {
+        font-weight: 700;
+        color: var(--gray-800-body);
+        @include mixin.font-style('body4-bold');
+      }
+    }
+
+    > :global(.ant-menu-item-selected) {
+      background-color: var(--slate-100);
+
+      span {
+        color: var(--blue-700-main);
+      }
+    }
+  }
+
+  :global(.ant-menu-title-content) {
+    @include mixin.font-style('body4-regular');
+  }
+
+  :global(.ant-menu-sub) {
+    :global(.ant-menu-item) {
+      padding-left: 37px !important;
+      position: relative;
+
+      &:before {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background-color: #cbd5e1;
+        left: 18px;
+      }
+    }
+
+    :global(.ant-menu-item-selected) {
+      :global(.ant-menu-title-content) {
+        font-weight: 700;
+      }
+
+      &:before {
+        background-color: var(--blue-700-main);
+      }
+    }
+  }
+
+  :global(.ant-menu-submenu-selected) {
+    :global(.ant-menu-submenu-title) {
+      background-color: var(--slate-100) !important;
+
+      :global(.ant-menu-title-content) {
+        color: var(--blue-700-main);
+        font-weight: 700;
+      }
+    }
+  }
+
+  :global(.ant-menu-submenu) {
+    margin-bottom: 0;
+  }
+
+  :global(.ant-menu-submenu-title) {
+    padding: 8px !important;
+    margin: 0 !important;
+    width: 100% !important;
+    border-radius: 6px !important;
+
+    :global(.ant-menu-title-content) {
+      color: var(--gray-800-body);
+      @include mixin.font-style('body4-bold');
+    }
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+
+  :global(.ant-menu-item) {
+    padding: 0 8px !important;
+    margin: 0 !important;
+    width: 100% !important;
+    border-radius: 6px !important;
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+
+  :global(.ant-menu-submenu-arrow) {
+    inset-inline-end: 0;
+  }
+}

@@ -1,0 +1,30 @@
+@use 'sass:map';
+@use '@/styles/abstracts/variable' as vars;
+
+/* TEXT COLOR */
+@each $name, $value in vars.$colors {
+  .text-#{$name} {
+    color: $value;
+  }
+}
+
+/* BACKGROUND COLOR */
+@each $name, $value in vars.$colors {
+  .bg-#{$name} {
+    background-color: $value;
+  }
+}
+
+/* BORDER COLOR */
+@each $name, $value in vars.$colors {
+  .border-#{$name} {
+    border-color: $value;
+  }
+}
+
+/* SHADOW */
+@each $level, $value in vars.$shadows {
+  .shadow-#{$level} {
+    box-shadow: $value;
+  }
+}

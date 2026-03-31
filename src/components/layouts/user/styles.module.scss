@@ -1,0 +1,29 @@
+.container {
+  max-width: 576px;
+  height: 100dvh;
+  margin: auto;
+  position: relative;
+  overflow-x: hidden;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+
+  :global(.ant-drawer) {
+    &:focus-visible {
+      outline: none !important;
+    }
+    height: 100dvh;
+    position: absolute;
+  }
+
+  .content {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .actions {
+    flex-shrink: 0;
+    // margin-bottom: 14px;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "내 정보 수정",
+
+  "account_info": {
+    "title": "계정 정보",
+    "email": "이메일 주소",
+    "link_sns": "{provider} 계정으로 연결됨",
+    "phone": "연락처"
+  },
+
+  "sign_out": {
+    "title": "로그아웃",
+    "modal": {
+      "title": "로그아웃 확인",
+      "desc": "로그아웃 하시겠습니까?"
+    }
+  },
+
+  "cancel_membership": {
+    "title": "회원탈퇴",
+    "modal": {
+      "title": "정말 탈퇴하시겠습어요?",
+      "desc_1": "탈퇴 버튼 선택 시,",
+      "desc_2": "해당 계정을 다시 사용할 수 없습니다."
+    }
+  }
+}

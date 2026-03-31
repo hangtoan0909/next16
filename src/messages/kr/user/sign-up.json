@@ -1,0 +1,24 @@
+{
+  "title": "회원가입",
+  "name": "이름",
+  "name_placeholder": "이름을 입력해주세요.",
+  "phone_number": "전화번호",
+  "phone_number_placeholder": "전화번호를 입력하세요.",
+
+  "terms": {
+    "look": "보기",
+    "agree_to_all": "전체 동의",
+    "agree_to_terms_of_user": "이용약관 동의 (필수)",
+    "agree_to_collection_and_use": "개인정보 수집 및 이용 동의 (필수)",
+    "receive_event_and_benifit": "이벤트 및 혜택 알림 받기 (선택)"
+  },
+
+  "register_my_car": {
+    "title": "내 차 정보 등록",
+    "car_number": "자동차 번호",
+    "vehicle_owner_name": "차주명",
+    "vehicle_type": "차종 선택",
+    "vehicle_type_placeholder": "차종",
+    "result": "조회 결과"
+  }
+}

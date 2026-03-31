@@ -1,0 +1,11 @@
+.NumberWithFallbackWrapper {
+  position: relative;
+  .FallbackValue {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    z-index: 2;
+    pointer-events: none;
+    transform: translateY(-50%);
+  }
+}

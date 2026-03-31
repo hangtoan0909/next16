@@ -1,0 +1,134 @@
+{
+  "title": "업체 정보 관리",
+  "tabs": {
+    "intro": "소개",
+    "basic": "기본정보",
+    "operation": "운영정보"
+  },
+
+  "unstadged": {
+    "desc1": "저장하지 않은 변경사항이 있습니다.",
+    "desc2": "저장하시겠습니까?",
+
+    "button": {
+      "cancel": "취소",
+      "move_without_saving": "저장하지 않고 이동",
+      "save_and_move": "저장 후 이동"
+    }
+  },
+
+  "introduction": {
+    "title": "소개",
+    "intro": "소개글",
+    "intro_placeholder": "이제 동네에서 가장 믿을 수 있는 저희 카센터에서...",
+    "photos": "사진 (최대 5장)",
+    "affiliated": "소속 조합",
+    "certificate": "자격증",
+    "specialization": "전문분야",
+    "service": "부가서비스",
+    "sns": "SNS 등록",
+
+    "upload": "사진추가",
+    "upload_desc1": "* 사진을 클릭하여 크게 보고 대표 사진을 설정할 수 있습니다.",
+    "upload_desc2": "* 가로가 긴 와이드 비율의 사진을 추천드립니다.",
+    "preview_image": "이미지 보기",
+
+    "cetificate_name": "자격증을 입력해주세요",
+    "cetificate_name_placeholder": "예: 자동차정비기능사",
+    "cetificate_number": "자격증 번호를 입력해주세요",
+    "cetificate_number_placeholder": "예: 12-34-567890",
+    "duplicate_certificate": "이미 등록된 자격증 번호입니다.",
+
+    "service_placeholder": "부가서비스 추가...",
+    "duplicate_service": "해당 서비스는 이미 등록되었습니다.",
+
+    "sns_name": "네이버, 유튜브등 SNS 서비스명을",
+    "sns_name_placeholder": "예: 인스타그램",
+    "sns_url": "SNS url을 입력해주세요",
+    "sns_url_placeholder": "예: caryak.net"
+  },
+
+  "basic_info": {
+    "title": "기본정보",
+    "save": "저장",
+    "edit": "수정",
+
+    "section": {
+      "company": "업체 정보",
+      "representative": "대표자 및 담당자 정보",
+      "bank": "계좌 정보"
+    },
+
+    "field": {
+      "business_name": "사업장명",
+      "business_number": "사업자등록번호",
+      "maintenance_business_number": "정비업 등록번호",
+      "phone": "업체 전화번호",
+      "address": "주소",
+      "detail_address": "상세 주소",
+      "email": "이메일",
+
+      "representative_name": "대표자명",
+      "representative_phone": "대표 휴대전화",
+      "person_in_charge": "담당자명",
+      "person_phone": "담당자 휴대전화",
+
+      "bank_name": "은행",
+      "account_holder": "사업자번호 또는 주민등록번호 앞 7자리",
+      "account_number": "계좌번호"
+    },
+
+    "placeholder": {
+      "maintenance_business_number": "000-00-00000",
+      "company_phone": "02-123-4567",
+      "representative_phone": "010-1234-5678",
+      "detail_address": "나머지 주소",
+      "email": "partner@chaba.com"
+    }
+  },
+
+  "operation": {
+    "title": "운영정보",
+    "save": "저장",
+    "businessHours": {
+      "title": "영업시간 설정"
+    },
+    "holiday": {
+      "title": "공휴일 설정"
+    },
+    "tempHoliday": {
+      "title": "임시 휴무일 관리"
+    },
+    "closed": "휴무",
+    "lunch": "점심",
+    "timeSeparator": "~",
+    "officialHoliday": {
+      "allClose": "법정 공휴일 전체 휴무 (근로자의 날 포함)"
+    },
+
+    "week": {
+      "mon": "월요일",
+      "tue": "화요일",
+      "wed": "수요일",
+      "thu": "목요일",
+      "fri": "금요일",
+      "sat": "토요일",
+      "sun": "일요일"
+    },
+
+    "temp_holiday": {
+      "title": "임시 휴무일 추가",
+      "period": "휴무 기간",
+      "reason": "휴무 사유",
+      "reason_placeholder": "예: 여름 휴가",
+      "total": "예정된 휴무 ({total})"
+    }
+  },
+
+  "save": "저장",
+  "add": "추가",
+  "add_sns": "SNS 추가",
+  "add_certificate": "자격증 추가",
+  "add_temp_holiday": "임시 휴무일 추가",
+  "set_default": "대표 사진으로 설정"
+}

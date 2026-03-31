@@ -1,0 +1,35 @@
+{
+  "title": "서비스 관리",
+  "description": "* 검사 종류별 가격을 직접 입력하고 영업 여부를 설정합니다.",
+  "save": "저장",
+
+  "vehicles_title": "운영 설정",
+  "vehicles_can_be_inspected_per_30min": "시간당 검사가능 차량 수",
+  "30mins": "대 / 30분",
+
+  "inspection_cost": "검사비용",
+  "inspection_cost_info": "*일부만 영업하는 차종의 경우, 영업을 하지 않는 검사의 가격은 빈칸으로 설정해 주세요. “--”으로 표기됩니다.",
+  "category": "구분",
+  "compact_car": "경차(경형)",
+  "small_car": "소형차 (1톤미만/10인승 이하)",
+  "electric_car": "전기차",
+  "motorcycle": "이륜차",
+  "medium_size_car": "중형차 (11인승이상)",
+  "large_cargo_35seats": "대형승합 (35인승이상)",
+  "large_cargo_10tons": "대형화물 (10t이하)",
+  "large_cargo_10to15tons": "대형화물 (10~15t미만)",
+  "super_large_passenger": "초대형승합 (대형버스)",
+  "super_large_cargo": "초대형화물 (15t이상)",
+  "regular_insecption": "정기검사",
+  "comprehensive_inspection": "종합검사(부하)",
+  "comprehensive_inspection_without_load": "종합검사(무부하)",
+  "comprehensive_inspection_emission_area": "종합검사(배출면제)",
+  "service_status": "영업여부",
+  "unit_krw": "(단위: 원)",
+
+  "add_additional_inspection_items": "추가 검사 항목 설정",
+  "item": "항목",
+  "nox_inpsection": "NOx 검사 (?)",
+  "cost_krw": "비용 (원)",
+  "validation_at_least_one_price": "선택하신 차량 종류에 대한 점검 제품 1개 이상의 가격을 추가해 주세요"
+}

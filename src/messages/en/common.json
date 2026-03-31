@@ -1,0 +1,149 @@
+{
+  "validate": {
+    "required": "This field is required.",
+    "all_space": "Spaces only are not allowed.",
+    "email": "Please check your email address again.",
+    "password": "Contain Letters, Numbers & Special Characters\u2028\nContain both lowercase, uppercase letters\nMinimum 8 ~ maximum 16 characters",
+    "min_max_length": "Please enter between {min} and {max} characters.",
+    "max_length": "Please enter details ({max} characters)",
+    "name": "Please enter 2-20 characters using Korean or English letters.",
+    "korea_phone": "Please check your mobile phone number.",
+    "notMatch": "Passwords do not match.",
+    "date": "Invalid date.",
+    "invalid_number": "Please enter a valid business registration number",
+    "invalid_business_registration": "The business registration number is incorrect"
+  },
+
+  "app": {
+    "system_admin": "System Administrator",
+    "all": "All",
+    "address_search": "Search Address",
+    "insert_file": "Insert File",
+    "verify": "Verify"
+  },
+
+  "header": {
+    "user": {
+      "my_info": "My Information",
+      "welcome_name": "Welcome, {name}",
+      "edit_info": "Edit My Information",
+      "logout": "Logout"
+    },
+
+    "profile": {
+      "list": "Edit My Information"
+    },
+
+    "notification": {
+      "title": "Notifications",
+      "no_data": "No notifications."
+    }
+  },
+
+  "menus": {
+    "system": {
+      "title": "System Management",
+      "facility": "Facilities",
+      "facility_admin": "Facility Managers",
+      "health_center": "Health Center",
+      "health_center_admin": "Health Center Managers",
+      "devices": "Installed Devices",
+      "device_admin": "Device Managers"
+    },
+    "facility": {
+      "title": "Facility Management",
+      "status": "Facility Status",
+      "users_activity": "Facility Users",
+      "kiosk": "Village Notice Board",
+      "inspection_request": "Inspection Request"
+    },
+    "senior_health": {
+      "title": "Senior Health Monitoring",
+      "dashboard": "Dashboard",
+      "data": "Health Data",
+      "info": "Health Center Information"
+    }
+  },
+
+  "button": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "register": "Register",
+    "edit": "Edit",
+    "save": "Save",
+    "send": "Send",
+    "deactive": "Deactivate",
+    "delete": "Delete",
+    "see_more": "See More",
+    "request": "Submit Request",
+    "complete": "Mark as Complete",
+    "deactive_member": "Deactivate Member",
+    "degree": "I Do Not Agree",
+    "agree": "I Agree",
+    "signature": "Signature Completed",
+    "retry": "Retry",
+    "completed": "Complete",
+    "rewrite": "Rewrite",
+    "detail": "Details",
+    "check": "Search",
+    "signUp": " Sign Up",
+    "view": "View"
+  },
+
+  "confirm": {
+    "register": "Do you want to register?",
+    "update": "Do you want to save the changes?",
+    "deactivate": "Do you want to deactivate?",
+    "deactivate_description": "Once deactivated, it cannot be restored. Do you still want to proceed?",
+    "deactivate_user_description": "You must change the facility manager. Otherwise, the system administrator will be assigned automatically.",
+    "deactive_facility": "Deleting this facility will also delete its location and devices. Do you want to continue?",
+    "restore_email": "This email account is already deactivated. Do you want to reactivate it?",
+    "delete_email": "Do you want to delete?",
+    "delete_email_description": "If you proceed, the system administrator will automatically be assigned as the installation manager for this facility.",
+    "delete_location": "Do you want to delete?",
+    "delete_news_board": "Do you want to delete?"
+  },
+
+  "toast": {
+    "completed": "Completed",
+    "warning": "Warning",
+    "information": "Information",
+    "error": "Failed",
+    "register_success": "Registration completed.",
+    "update_success": "Changes saved.",
+    "delete_success": "Deletion completed.",
+    "deactive_success": "Deactivation completed.",
+    "deactivate_user_success": "User has been deactivated.",
+    "restored_user_success": "Restoration completed.",
+    "delete_user_success": "User has been deactivated.",
+    "deactive_facility_success": "Facility deleted.",
+    "update_information_success": "Update completed.",
+    "complete_request_success": "Inspection request submitted successfully.",
+    "register_request_success": "Inspection request completed.",
+    "send_success": "Sent successfully."
+  },
+
+  "filter": {
+    "all": "All",
+    "search": "Please enter a search keyword.",
+    "registration_date": "Registration Date:",
+    "registration_date_request": "Request Date:",
+    "gender_all": "All Genders",
+    "male": "Male",
+    "female": "Female",
+    "birth_years_all": "All Birth Years",
+    "status_all": "All Statuses",
+    "active": "Active",
+    "inactive": "Inactive",
+    "age_all": "All Age Groups"
+  },
+
+  "placeholder": {
+    "postal_code": "Please search for an address",
+    "editor": "Enter content",
+    "phone_number": "Enter phone number"
+  },
+
+  "no_data": "No data found",
+  "no_assign_facilities": "No assigned facilities at the moment."
+}

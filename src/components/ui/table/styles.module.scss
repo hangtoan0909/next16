@@ -1,0 +1,152 @@
+@use '@/styles/abstracts/mixin';
+
+.container {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  .left {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    :global(.ant-form-item) {
+      margin-bottom: 0;
+    }
+
+    :global(.ant-btn) {
+      padding: 0;
+    }
+
+    .count {
+      margin-right: 12px;
+      color: var(--dark-blue);
+      flex-shrink: 1;
+      min-width: 40px;
+
+      span {
+        color: var(--main-blue-2);
+      }
+    }
+
+    form {
+      flex: 1;
+      flex-shrink: 1;
+      :global(.ant-picker) {
+        height: 36px;
+        border-radius: 6px;
+      }
+
+      :global(.ant-row) {
+        row-gap: 10px;
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    :global(.ant-input-affix-wrapper) {
+      padding: 6px 20px;
+      background-color: var(--light-gray);
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      line-height: 1.5;
+
+      input {
+        margin-right: 15px;
+
+        &::placeholder {
+          color: var(--sub-gray);
+        }
+      }
+
+      @media screen and (max-width: 992px) {
+        width: 100% !important;
+      }
+    }
+
+    @include mixin.media(sm) {
+      width: 100%;
+      flex-direction: column-reverse;
+      gap: 24px;
+    }
+
+    .btnActions {
+      @media screen and (max-width: 992px) {
+        width: 100%;
+
+        :global(.ant-btn) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .mobileList {
+    .count {
+      margin-right: 12px;
+      color: var(--dark-blue);
+      flex-shrink: 1;
+      min-width: 40px;
+
+      span {
+        color: var(--main-blue-2);
+      }
+    }
+
+    .cardItem {
+      background-color: var(--bg-gray);
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 16px;
+
+      .cardItemRow {
+        background-color: var(--white-color);
+        border-radius: 16px;
+        padding: 10px 15px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        @include mixin.flex(space-between, center);
+
+        span {
+          display: inline-block;
+          font-size: 18px !important;
+
+          &:last-of-type {
+            font-weight: bold;
+          }
+
+          > div {
+            text-align: center;
+          }
+        }
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+  }
+
+  .body {
+    border-radius: 6px;
+    border: 1px solid var(--gray-300-border);
+    background-color: var(--white);
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "예약 상세",
+  "status_title": "예약이 완료되었습니다!",
+  "cta_map": "길 찾기",
+  "cta_call": "전화하기",
+  "detail_title": "예약 상세 정보",
+  "detail_reservation_no": "예약번호",
+  "detail_schedule": "예약일정",
+  "detail_type": "예약종류",
+  "car_info": "차량 정보",
+  "car_number": "차량번호",
+  "car_model": "차량모델",
+  "car_type": "차종",
+  "request": "요청사항",
+  "request_note_none": "추가요청사항이 없습니다.",
+  "cta_cancel": "예약 취소",
+  "cta_list": "예약 목록",
+  "footer_note_line1": "예약 내용은 마이페이지 > 예약목록에서",
+  "footer_note_line2": "언제든지 다시 확인할 수 있습니다."
+}

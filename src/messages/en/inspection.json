@@ -1,0 +1,116 @@
+{
+  "login": {
+    "title": "Resource Management Service",
+    "description": "Please enter your email and password to continue",
+    "success": "Login Successfully",
+    "form": {
+      "email": {
+        "title": "ID (Business Registration Number)",
+        "placeholder": "123-45-6789"
+      },
+      "password": {
+        "title": "Password",
+        "placeholder": "********"
+      },
+      "login": "Login",
+      "save_email": "Remember ID",
+      "reset_password": "Find ID/ Password"
+    }
+  },
+  "signup": {
+    "title": "회원가입",
+    "form": {
+      "info": {
+        "title": "로그인 정보",
+        "business": "사업자 등록번호",
+        "business_placeholder": "사업자 등록번호",
+        "password": "비밀번호",
+        "confirm_password": "비밀번호 확인"
+      },
+      "business": {
+        "title": "대표자 및 업체 정보",
+        "name": "상호명",
+        "name_placeholder": "대표자명",
+        "representative": "업체 전화번호",
+        "representative_placeholder": "업체 전화번호",
+        "representative_phone": "대표자 전화번호",
+        "representative_phone_placeholder": "대표자 전화번호",
+        "business_phone": "업체 전화번호",
+        "business_phone_placeholder": "업체 전화번호",
+        "email": "이메일",
+        "email_placeholder": "이메일",
+        "address": "주소",
+        "address_placeholder": "업체 주소",
+        "address_placeholder_detail": "나머지 주소"
+      },
+      "bank": {
+        "title": "계좌 정보",
+        "bank_name": "은행",
+        "bank_name_placeholder": "은행",
+        "bank_placeholder": "123-456-789012",
+        "bank_number": "사업자번호 또는 주민등록번호 앞 7자리",
+        "bank_number_placeholder": "사업자번호 또는 주민등록번호 앞 7자리",
+        "bank_account": "계좌번호",
+        "bank_account_placeholder": "계좌번호"
+      },
+      "documents": {
+        "title": "업체 서류",
+        "certificate": "사업자등록증",
+        "maintainCertificate": "정비등록증"
+      },
+      "terms": {
+        "title": "약관 동의",
+        "agreeAll": "전체 동의 ",
+        "termsOfUse": "이용약관 ",
+        "collection": "개인정보 수집...",
+        "receiving": "광고 정보 수신"
+      },
+      "uploads": {
+        "title": "등록 파일 결과",
+        "placeholder": "PDF 파일 업로드",
+        "max": "클릭 또는 드래그 · 최대 10MB PDF 파일"
+      }
+    }
+  },
+  "profile": {
+    "form": {
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Enter your first name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Enter your last name",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "gender": "Gender",
+      "genderPlaceholder": "Select gender",
+      "dob": "Date of Birth",
+      "dobPlaceholder": "Select your date of birth",
+      "country": "Country",
+      "countryPlaceholder": "Enter your country",
+      "city": "City",
+      "cityPlaceholder": "Enter your city",
+      "address": "Address",
+      "addressPlaceholder": "Enter your address",
+      "avatar": "Profile Picture",
+      "documents": "Supporting Documents"
+    }
+  },
+  "common": {
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    }
+  },
+  "validate": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "password": "Password must be at least 8 characters and include uppercase, lowercase, number, and special character",
+    "phone": "Please enter a valid phone number"
+  },
+  "reset_password": {
+    "title": "Enter your email address",
+    "description_1": "Please enter your registered email address.",
+    "description_2": "We will send a temporary (reset) password to your email.",
+    "success": "An email has been sent"
+  }
+}

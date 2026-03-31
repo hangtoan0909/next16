@@ -1,0 +1,67 @@
+@use '@/styles/abstracts/mixin';
+
+.footer {
+  background-color: #080e28;
+  color: var(--gray-500);
+
+  .logo {
+    display: inline-block;
+    margin-bottom: 24px;
+  }
+
+  .info {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 24px;
+    }
+
+    h5 {
+      color: var(--gray-400);
+      @include mixin.font-style('body3-bold');
+      margin-bottom: 8px;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        &:not(:last-child) {
+          margin-bottom: 8px;
+        }
+
+        > span {
+          margin-right: 8px;
+        }
+      }
+
+      &.find {
+        display: flex;
+        gap: 16px;
+
+        li {
+          position: relative;
+          margin-bottom: 0;
+
+          &:first-child {
+            &:before {
+              content: '';
+              position: absolute;
+              right: -8px;
+              top: 46%;
+              transform: translateY(-50%);
+              width: 1px;
+              height: 15px;
+              background-color: var(--gray-800-body);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    padding-top: 24px;
+    border-top: 1px solid var(--gray-800-body);
+  }
+}

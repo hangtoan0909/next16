@@ -1,0 +1,50 @@
+{
+  "approval": {
+    "title": "파트너 가입 승인",
+    "column": {
+      "type": "유형",
+      "business_number": "사업자 등록 번호",
+      "business_name": "상호명",
+      "director_park": "대표자",
+      "businessPhone": "연락처",
+      "application_date": "신청일",
+      "processing_status": "처리상태",
+      "manage": "관리"
+    },
+    "btnApproval": "상세보기",
+    "popupApproval": {
+      "title": "파트너 가입 승인 상세",
+      "basic": {
+        "title": "기본 정보",
+        "type": "유형",
+        "businessName": "상호명",
+        "businessNumber": "사업자등록번호",
+        "representative": "대표자",
+        "representativeBusinessPhone": "대표자 전화번호",
+        "businessPhone": "업체 전화번호",
+        "email": "이메일 주소",
+        "businessAddress": "사업장 주소",
+        "bank": "은행 정보"
+      },
+      "documents": {
+        "title": "첨부 서류",
+        "businessCertificate": "사업자등록증",
+        "maintenanceCertificate": "정비업등록증",
+        "preview": "미리보기"
+      },
+      "status": {
+        "title": "처리 상태",
+        "reason": "반려 사유",
+        "resonPlaceholder": "사유를 입력해주세요.",
+        "validateRequired": "반려 사유를 입력해 주세요"
+      },
+      "confirm": {
+        "title": "가입 승인",
+        "desc": "선택한 파트너의 가입을 승인하시겠습니까?"
+      }
+    }
+  },
+  "management": {
+    "title": "파트너 관리"
+  }
+}

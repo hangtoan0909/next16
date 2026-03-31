@@ -1,0 +1,57 @@
+@use '@/styles/abstracts/mixin';
+
+.header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--gray-300-border);
+  padding: 0 16px;
+
+  .logo {
+    @include mixin.flex(flex-start);
+    width: 224px;
+    flex-shrink: 0;
+    border-right: 1px solid var(--gray-300-border);
+
+    span {
+      &:first-child {
+        @include mixin.font-style('body3-bold');
+        margin-right: 4px;
+      }
+
+      &:last-child {
+        color: var(--blue-700-main);
+        @include mixin.font-style('body3-semi-bold');
+      }
+    }
+  }
+
+  .content {
+    @include mixin.flex(flex-end);
+    flex: 1;
+
+    .title {
+      padding-left: 8px;
+    }
+
+    .actions {
+      @include mixin.flex;
+      gap: 15px;
+
+      :global(.ant-select) {
+        margin-right: 15px;
+      }
+
+      :global(.ant-select-selection-item) {
+        font-weight: 700;
+        color: var(--middle-gray);
+      }
+    }
+  }
+}

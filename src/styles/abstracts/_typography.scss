@@ -1,0 +1,16 @@
+@use '@/styles/abstracts/mixin';
+@use '@/styles/abstracts/variable' as font-styles;
+
+$typo-prefix: 'text';
+
+@mixin generate-typo-classes($font-map, $device) {
+  @each $name, $style in $font-map {
+    .#{$typo-prefix}-#{$name} {
+      @include mixin.font-style($name, $device);
+    }
+  }
+}
+
+@include generate-typo-classes(font-styles.$font-styles-mobile, 'mobile');
+
+@include generate-typo-classes(font-styles.$font-styles-pc, 'pc');

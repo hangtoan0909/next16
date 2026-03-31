@@ -1,0 +1,48 @@
+@use '@/styles/abstracts/mixin';
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  :global(.ant-pagination-item) {
+    border: none !important;
+    display: flex !important;
+    @include mixin.flex;
+
+    a {
+      font-weight: 400;
+    }
+  }
+
+  :global(.ant-pagination-item-active) {
+    a {
+      color: var(--white) !important;
+    }
+  }
+
+  :global(.ant-pagination-next),
+  :global(.ant-pagination-prev) {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn {
+    width: 24px !important;
+    height: 24px !important;
+    padding: 0;
+    border: none !important;
+    border-radius: 4px;
+    background: transparent !important;
+    box-shadow: none !important;
+
+    &.disable {
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+  }
+}

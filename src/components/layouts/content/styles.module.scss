@@ -1,0 +1,37 @@
+@use '@/styles/abstracts/mixin';
+
+.wrapper {
+  position: relative;
+
+  .header {
+    @include mixin.flex(space-between);
+    padding-bottom: 16px;
+
+    .title {
+      @include mixin.font-style('body1-bold');
+    }
+  }
+
+  .content {
+    padding: 16px 24px 10px 24px;
+    overflow: auto;
+  }
+
+  .children {
+    background-color: var(--white);
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .footerAction {
+    position: fixed;
+    padding: 20px 50px 30px 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    @include mixin.flex(flex-end);
+    background-color: var(--white);
+    z-index: 8;
+    box-shadow: 0 1px 3px #ccc;
+  }
+}

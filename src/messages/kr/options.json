@@ -1,0 +1,13 @@
+{
+  "all": "전체",
+
+  "partner": {
+    "all": "형식: 전체",
+    "inspection": "Inspection Center",
+    "car_center": "Car Center"
+  },
+
+  "status": {
+    "all": "처리상태: 전체"
+  }
+}

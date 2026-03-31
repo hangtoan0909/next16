@@ -1,0 +1,16 @@
+{
+  "title": "내 차량 관리",
+
+  "add_vehicle": "+ 차량 추가 등록",
+  "delete_vehicle": "삭제",
+  "delete_vehicle_description": "차량을 정말로 제거하시겠습니까?",
+
+  "info": {
+    "owner_name": "차주명",
+    "vin": "차대번호(VIN)",
+    "vehicle_type": "차종",
+    "model": "모델명",
+    "fuel_type": "연료종류",
+    "cc": "엔진CC"
+  }
+}

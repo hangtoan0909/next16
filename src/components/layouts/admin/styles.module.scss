@@ -1,0 +1,29 @@
+@use '@/styles/abstracts/mixin';
+
+.container {
+  display: flex;
+  background-color: var(--gray-200-bg);
+
+  .sidebar {
+    height: 100vh;
+    position: fixed;
+    z-index: 9;
+
+    @include mixin.media(sm) {
+      z-index: 99;
+    }
+  }
+
+  :global(.ant-layout-sider-children) {
+    background-color: var(--white);
+  }
+
+  .content {
+    flex: 1;
+    padding: 0 0 0 240px;
+    margin-top: 56px;
+    overflow: auto;
+    transition: 0.6s;
+    min-height: calc(100vh - 56px);
+  }
+}

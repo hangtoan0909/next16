@@ -1,0 +1,7 @@
+echo '😈 Pre-commit Check 😈'
+
+echo '😈 Linting... 😈'
+
+pnpm lint-staged
+
+echo '❤️ ❤️ ❤️  All passed. Committing them. ❤️ ❤️ ❤️'
